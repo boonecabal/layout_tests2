@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, sans-serif;
+}
+
+main {
+	background-color: #1A1A1A;
+}
+
+footer {
+	background-color: #1A1A1A;
+}
+
+html, body {
+	height: 100%;
+	background-color: #171738;
+}
+
+/*
+
+Colors
+
+https://coolors.co/171738-2e1760-3423a6-7180b9-dff3e4
+
+*/
+
+$bg-gray1: #1A1A1A;
+$bg-gray2: #313131;
+$bg-gray3: #484848;
+$bg-gray4: #5f5f5f;
+$bg-gray5: #767676;
+$bg-gray6: #8d8d8d;
+$bg-gray7: #a3a3a3;
+$bg-gray8: #bababa;
+$bg-gray9: #d1d1d1;
+$bg-gray10: #e8e8e8;
+$bg-gray11: #ffffff;
+
+.bg-gray1 {
+	background-color: $bg-gray1;
+}
+.bg-gray2 {
+	background-color: $bg-gray2;
+}
+.bg-gray3 {
+	background-color: $bg-gray3;
+}
+.bg-gray4 {
+	background-color: $bg-gray4;
+}
+.bg-gray5 {
+	background-color: $bg-gray5;
+}
+.bg-gray6 {
+	background-color: $bg-gray6;
+}
+.bg-gray7 {
+	background-color: $bg-gray7;
+}
+.bg-gray8 {
+	background-color: $bg-gray8;
+}
+.bg-gray9 {
+	background-color: $bg-gray9;
+}
+.bg-gray10 {
+	background-color: $bg-gray10;
+}
+.bg-gray11 {
+	background-color: $bg-gray11;
+}
+
+$bg-blue5: #171738;
+$bg-blue4: #2E1760;
+$bg-blue3: #3423A6;
+$bg-blue2: #7180B9;
+$bg-blue1: #DFF3E4;
+$bg-blue0: #B7BEDB;
+
+.bg-blue5 {
+	background-color: $bg-blue5;
+}
+.bg-blue4 {
+	background-color: $bg-blue4;
+}
+.bg-blue3 {
+	background-color: $bg-blue3;
+}
+.bg-blue2 {
+	background-color: $bg-blue2;
+}
+.bg-blue1 {
+	background-color: $bg-blue1;
+}
+.bg-blue0 {
+	background-color: $bg-blue0;
+}

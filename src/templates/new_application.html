@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block head %}
+	{{ super() }}
+
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/Navbar-Centered-Links-icons.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/dashboard.css') }}">
+
+	<script type="text/javascript" src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/ms_form.css') }}">
+	<script type='text/javascript' src="{{ url_for('static', filename='js/ms_form.js') }}"></script>
+{% endblock %}
+
+{% block app_content %}
+<section class="container bg-white my-3">
+	
+	<!-- Heading -->
+	<div class="row pt-3">
+		<div class="col-12">
+			<h1 class="text-center">Dashboard</h1>
+		</div>
+	</div>
+
+	<!-- Tab Control -->
+	<div class="row">
+		<div class="col-12">
+			<ul class="nav nav-tabs">
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Customers</a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item active" href="#">View List</a></li>
+						<li><a class="dropdown-item" href="#">Add New</a></li>
+					</ul>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Properties</a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="#">View List</a></li>
+						<li><a class="dropdown-item" href="#">Add New</a></li>
+					</ul>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled">Reports</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Settings</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+{% endblock %}
+
+{% block scripts %}
+	{{ super() }}
+
+	<!-- Optional JavaScript -->
+{% endblock %}
+-
