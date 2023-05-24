@@ -17,6 +17,18 @@ html, body {
 	background-color: #171738;
 }
 
+/* Default height for small devices */
+#index-hero {
+	height: 75vh;
+}
+
+/* Height for devices larger than 992px */
+@media (min-width: 992px) {
+	#index-hero {
+		height: 80vh;
+	}
+}
+
 /*
 
 Colors

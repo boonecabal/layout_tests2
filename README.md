@@ -2,6 +2,9 @@
 
 ## Current
 
+* home.html: real hero section
+## Last
+
 * created gulpfile.js
 * created base.scss
 * reworked index.html
